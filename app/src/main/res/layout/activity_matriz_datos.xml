@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@android:color/holo_blue_light"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MatrizDatos">
+
+    <TextView
+        android:id="@+id/activity_matriz_datos_tv_add_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="32dp"
+        android:text="@string/add_data"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/activity_matriz_datos_tl_matriz_datos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TableLayout
+        android:id="@+id/activity_matriz_datos_tl_matriz_datos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="16dp">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/activity_matriz_datos_tv_condition_present"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="@string/condition_present"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/activity_matriz_datos_tv_condition_absent"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="@string/condition_absent"
+                android:textColor="@color/black" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/activity_matriz_datos_tv_test_positive"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="8dp"
+                android:text="@string/test_positive"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/activity_matriz_datos_et_a"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:background="@android:drawable/edit_text"
+                android:ems="10"
+                android:inputType="number"
+                android:nextFocusDown="@+id/activity_matriz_datos_et_b" />
+
+            <EditText
+                android:id="@+id/activity_matriz_datos_et_b"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:background="@android:drawable/edit_text"
+                android:ems="10"
+                android:inputType="number"
+                android:nextFocusDown="@+id/activity_matriz_datos_et_c" />
+
+            <EditText
+                android:id="@+id/activity_matriz_datos_et_ab"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:background="@android:drawable/edit_text"
+                android:clickable="false"
+                android:ems="10"
+                android:focusable="false"
+                android:inputType="number" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="16dp">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/activity_matriz_datos_tv_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/A"
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/activity_matriz_datos_tv_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/B"
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/activity_matriz_datos_tv_ab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/AB"
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/activity_matriz_datos_tv_test_negative"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="8dp"
+                android:text="@string/test_negative"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/activity_matriz_datos_et_c"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:background="@android:drawable/edit_text"
+                android:ems="10"
+                android:inputType="number"
+                android:nextFocusDown="@+id/activity_matriz_datos_et_d" />
+
+            <EditText
+                android:id="@+id/activity_matriz_datos_et_d"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:background="@android:drawable/edit_text"
+                android:ems="10"
+                android:inputType="number" />
+                <!-- android:nextFocusDown="@+id/activity_matriz_datos_et_a"-->
+
+            <EditText
+                android:id="@+id/activity_matriz_datos_et_cd"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:background="@android:drawable/edit_text"
+                android:clickable="false"
+                android:ems="10"
+                android:focusable="false"
+                android:inputType="number" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="16dp">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/activity_matriz_datos_tv_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/C"
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/activity_matriz_datos_tv_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/D"
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/activity_matriz_datos_tv_cd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/CD"
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/activity_matriz_datos_et_ac"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:background="@android:drawable/edit_text"
+                android:clickable="false"
+                android:ems="10"
+                android:focusable="false"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/activity_matriz_datos_et_bd"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:background="@android:drawable/edit_text"
+                android:clickable="false"
+                android:ems="10"
+                android:focusable="false"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/activity_matriz_datos_et_total"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:background="@android:drawable/edit_text"
+                android:clickable="false"
+                android:ems="10"
+                android:focusable="false"
+                android:inputType="number" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="16dp">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/activity_matriz_datos_tv_ac"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/AC"
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/activity_matriz_datos_tv_bd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/BD"
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/activity_matriz_datos_tv_total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/total"
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/activity_matriz_datos_btn_clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="32dp"
+        android:text="@string/clear"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/activity_matriz_datos_btn_calc"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/activity_matriz_datos_btn_calc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        android:text="@string/calc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/activity_matriz_datos_btn_clear" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

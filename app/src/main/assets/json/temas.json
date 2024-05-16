@@ -1,0 +1,67 @@
+[
+    {
+        "id": 1,
+        "nombre": "Exactitud",
+        "html": "exactitud.html"
+    },
+    {
+        "id": 2,
+        "nombre": "Sensibilidad",
+        "html": "sensibilidad.html"
+    },
+    {
+        "id": 3,
+        "nombre": "Especificidad",
+        "html": "especificidad.html"
+    },
+    {
+        "id": 4,
+        "nombre": "Valor Predictivo Positivo",
+        "html": "vpp.html"
+    },
+    {
+        "id": 5,
+        "nombre": "Valor Predictivo Negativo",
+        "html": "vpn.html"
+    },
+    {
+        "id": 6,
+        "nombre": "Razón de Verosimilitud Positiva",
+        "html": "rvp.html"
+    },
+    {
+        "id": 7,
+        "nombre": "Razón de Verosimilitud Negativa",
+        "html": "rvn.html"
+    },
+    {
+        "id": 8,
+        "nombre": "Razón de Falsos Positivos",
+        "html": "rfp.html"
+    },
+    {
+        "id": 9,
+        "nombre": "Razón de Falsos Negativos",
+        "html": "rfn.html"
+    },
+    {
+        "id": 10,
+        "nombre": "Razón de Falsos Descubrimientos",
+        "html": "rfd.html"
+    },
+    {
+        "id": 11,
+        "nombre": "Razón de Falsas Omisiones",
+        "html": "rfo.html"
+    },
+    {
+        "id": 12,
+        "nombre": "Índice de Marcación",
+        "html": "im.html"
+    },
+    {
+        "id": 13,
+        "nombre": "Índice de Información",
+        "html": "ii.html"
+    }
+]
