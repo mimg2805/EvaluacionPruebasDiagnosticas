@@ -9,15 +9,15 @@ import android.view.Gravity
 import android.view.View
 import android.widget.Button
 import android.widget.LinearLayout
-import android.widget.TableLayout
-import android.widget.TableRow
 import org.json.JSONArray
-import java.io.File
 
 class Tema : Activity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_tema)
+
+        // Language
+        val lang = resources.configuration.locales.get(0).language
 
         val llTemas = findViewById<LinearLayout>(R.id.activity_tema_ll_temas)
         val llLayoutParams = LinearLayout.LayoutParams(
@@ -41,8 +41,16 @@ class Tema : Activity() {
         for (t in 0..temasLen) {
             val tema = temas.getJSONObject(t)
             val temaId = tema.getInt("id")
-            val temaNombre = tema.getString("nombre")
-            val temaHtml = tema.getString("html")
+            val temaNombreEs = tema.getString("nombre_es")
+            val temaNombreEn = tema.getString("nombre_en")
+            val temaHtmlEs = tema.getString("html_es")
+            val temaHtmlEn = tema.getString("html_en")
+
+            val temaNombre = if (lang == "en") temaNombreEn
+            else temaNombreEs
+
+            val temaHtml = if (lang == "en") "html_en/$temaHtmlEn"
+            else "html_es/$temaHtmlEs"
 
             val btn = Button(this)
             btn.setBackgroundColor(Color.WHITE)

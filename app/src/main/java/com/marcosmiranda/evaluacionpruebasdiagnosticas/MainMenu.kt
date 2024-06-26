@@ -3,13 +3,10 @@ package com.marcosmiranda.evaluacionpruebasdiagnosticas
 import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
-import android.os.SystemClock.sleep
-import android.util.Log
 import android.widget.Button
 import android.widget.TextView
 import java.util.Timer
 import java.util.TimerTask
-
 
 class MainMenu : Activity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -37,7 +34,7 @@ class MainMenu : Activity() {
         }
         timer.schedule(taskEverySplitSecond, 1, 100)
 
-        val btnEvaluar = findViewById<Button>(R.id.activity_main_menu_btn_evaluar)
+        val btnEvaluar = findViewById<Button>(R.id.activity_main_menu_btn_evaluate)
         btnEvaluar.setOnClickListener {
             timer.cancel()
             tvAppName.text = appNameStr

@@ -12,15 +12,15 @@ plugins {
 
 android {
     namespace = "com.marcosmiranda.evaluacionpruebasdiagnosticas"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.marcosmiranda.evaluacionpruebasdiagnosticas"
-        minSdk = 21
-        targetSdk = 34
+        minSdk = 24
+        targetSdk = 35
         versionCode = getDate()
-        versionName = "1.0"
-        // versionName = "1.0-" + getDate()
+        versionName = "1.1"
+        // versionName = "1.1-" + getDate()
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {

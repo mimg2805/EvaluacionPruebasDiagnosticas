@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Evaluación de Pruebas Diagnósticas</string>
+    <string name="evaluate">Evaluar</string>
+
+    <string name="add_data">Introduzca los datos</string>
+    <string name="condition_present">Condición\nPresente</string>
+    <string name="condition_absent">Condición\nAusente</string>
+    <string name="positive_test">Test\nPositivo</string>
+    <string name="negative_test">Test\nNegativo</string>
+    <string name="total">Total</string>
+    <string name="clear">Limpiar</string>
+    <string name="calc">Calcular</string>
+    <string name="toast_values_empty">Por favor, rellene todos los datos</string>
+
+    <string name="subjects">Temas</string>
+    <string name="result">Resultado</string>
+</resources>

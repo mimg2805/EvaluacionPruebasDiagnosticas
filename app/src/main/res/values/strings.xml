@@ -1,25 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Evaluación de Pruebas Diagnósticas</string>
-    <string name="evaluar">Evaluar</string>
+    <string name="app_name">Evaluation of Diagnostic Tests</string>
+    <string name="evaluate">Evaluate</string>
 
-    <string name="add_data">Introduzca los datos</string>
-    <string name="condition_present">Condición\nPresente</string>
-    <string name="condition_absent">Condición\nAusente</string>
-    <string name="test_positive">Test\nPositivo</string>
-    <string name="test_negative">Test\nNegativo</string>
-    <string name="A">A</string>
-    <string name="B">B</string>
-    <string name="C">C</string>
-    <string name="D">D</string>
-    <string name="AB">A + B</string>
-    <string name="AC">A + C</string>
-    <string name="BD">B + D</string>
-    <string name="CD">C + D</string>
+    <string name="add_data">Add data</string>
+    <string name="condition_present">Condition\nPresent</string>
+    <string name="condition_absent">Condition\nAbsent</string>
+    <string name="positive_test">Positive\nTest</string>
+    <string name="negative_test">Negative\nTest</string>
+    <string name="A" translatable="false">A</string>
+    <string name="B" translatable="false">B</string>
+    <string name="C" translatable="false">C</string>
+    <string name="D" translatable="false">D</string>
+    <string name="AB" translatable="false">A + B</string>
+    <string name="AC" translatable="false">A + C</string>
+    <string name="BD" translatable="false">B + D</string>
+    <string name="CD" translatable="false">C + D</string>
     <string name="total">Total</string>
-    <string name="clear">Limpiar</string>
-    <string name="calc">Calcular</string>
-    <string name="toast_values_empty">Por favor, rellene todos los datos</string>
+    <string name="clear">Clear</string>
+    <string name="calc">Calculate</string>
+    <string name="toast_values_empty">Please, fill out all inputs</string>
 
-    <string name="temas">Temas</string>
-    <string name="resultado">Resultado</string>
+    <string name="subjects">Subjects</string>
+    <string name="result">Result</string>
 </resources>

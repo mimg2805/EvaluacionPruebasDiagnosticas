@@ -1,67 +1,93 @@
 [
     {
         "id": 1,
-        "nombre": "Exactitud",
-        "html": "exactitud.html"
+        "nombre_es": "Exactitud",
+        "nombre_en": "Accuracy",
+        "html_es": "exactitud.html",
+        "html_en": "accuracy.html"
     },
     {
         "id": 2,
-        "nombre": "Sensibilidad",
-        "html": "sensibilidad.html"
+        "nombre_es": "Sensibilidad",
+        "nombre_en": "Sensitivity",
+        "html_es": "sensibilidad.html",
+        "html_en": "sensitivity.html"
     },
     {
         "id": 3,
-        "nombre": "Especificidad",
-        "html": "especificidad.html"
+        "nombre_es": "Especificidad",
+        "nombre_en": "Specificity",
+        "html_es": "especificidad.html",
+        "html_en": "specificity.html"
     },
     {
         "id": 4,
-        "nombre": "Valor Predictivo Positivo",
-        "html": "vpp.html"
+        "nombre_es": "Valor Predictivo Positivo",
+        "nombre_en": "Positive Predictive Value",
+        "html_es": "valor_predictivo_positivo.html",
+        "html_en": "positive_predictive_value.html"
     },
     {
         "id": 5,
-        "nombre": "Valor Predictivo Negativo",
-        "html": "vpn.html"
+        "nombre_es": "Valor Predictivo Negativo",
+        "nombre_en": "Negative Predictive Value",
+        "html_es": "valor_predictivo_negativo.html",
+        "html_en": "negative_predictive_value.html"
     },
     {
         "id": 6,
-        "nombre": "Razón de Verosimilitud Positiva",
-        "html": "rvp.html"
+        "nombre_es": "Razón de Verosimilitud Positiva",
+        "nombre_en": "Positive Likelihood Ratio",
+        "html_es": "razon_verosimilitud_positiva.html",
+        "html_en": "positive_likelihood_ratio.html"
     },
     {
         "id": 7,
-        "nombre": "Razón de Verosimilitud Negativa",
-        "html": "rvn.html"
+        "nombre_es": "Razón de Verosimilitud Negativa",
+        "nombre_en": "Negative Likelihood Ratio",
+        "html_es": "razon_verosimilitud_negativa.html",
+        "html_en": "negative_likelihood_ratio.html"
     },
     {
         "id": 8,
-        "nombre": "Razón de Falsos Positivos",
-        "html": "rfp.html"
+        "nombre_es": "Razón de Falsos Positivos",
+        "nombre_en": "False Positive Likelihood Ratio",
+        "html_es": "razon_falsos_positivos.html",
+        "html_en": "false_positive_likelihood_ratio.html"
     },
     {
         "id": 9,
-        "nombre": "Razón de Falsos Negativos",
-        "html": "rfn.html"
+        "nombre_es": "Razón de Falsos Negativos",
+        "nombre_en": "False Negative Likelihood Ratio",
+        "html_es": "razon_falsos_negativos.html",
+        "html_en": "false_negative_likelihood_ratio.html"
     },
     {
         "id": 10,
-        "nombre": "Razón de Falsos Descubrimientos",
-        "html": "rfd.html"
+        "nombre_es": "Razón de Falsos Descubrimientos",
+        "nombre_en": "False Discovery Ratio",
+        "html_es": "razon_falsos_descubrimientos.html",
+        "html_en": "false_discovery_ratio.html"
     },
     {
         "id": 11,
-        "nombre": "Razón de Falsas Omisiones",
-        "html": "rfo.html"
+        "nombre_es": "Razón de Falsas Omisiones",
+        "nombre_en": "False Omission Ratio",
+        "html_es": "razon_falsas_omisiones.html",
+        "html_en": "false_omission_ratio.html"
     },
     {
         "id": 12,
-        "nombre": "Índice de Marcación",
-        "html": "im.html"
+        "nombre_es": "Índice de Marcación",
+        "nombre_en": "Marker Ratio",
+        "html_es": "indice_marcacion.html",
+        "html_en": "marker_ratio.html"
     },
     {
         "id": 13,
-        "nombre": "Índice de Información",
-        "html": "ii.html"
+        "nombre_es": "Índice de Información",
+        "nombre_en": "Information Ratio",
+        "html_es": "indice_informacion.html",
+        "html_en": "information_ratio.html"
     }
 ]
