@@ -3,6 +3,7 @@
     <string name="app_name">Evaluation of Diagnostic Tests</string>
     <string name="evaluate">Evaluate</string>
     <string name="more_apps">More Apps by this Developer</string>
+    <string name="banner_ad_id" translatable="false">ca-app-pub-2838402743054690/7511134133</string>
 
     <string name="add_data">Add data</string>
     <string name="condition_present">Condition\nPresent</string>

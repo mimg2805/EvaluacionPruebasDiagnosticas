@@ -164,7 +164,8 @@
                 android:layout_height="50dp"
                 android:background="@android:drawable/edit_text"
                 android:ems="10"
-                android:inputType="number" />
+                android:inputType="number"
+                android:imeOptions="actionDone" />
                 <!-- android:nextFocusDown="@+id/activity_matriz_datos_et_a"-->
 
             <EditText
@@ -297,23 +298,35 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="32dp"
         android:text="@string/clear"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/activity_matriz_datos_btn_calc"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/activity_matriz_datos_tl_matriz_datos" />
 
     <Button
         android:id="@+id/activity_matriz_datos_btn_calc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
         android:layout_marginEnd="32dp"
-        android:layout_marginBottom="32dp"
         android:text="@string/calc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/activity_matriz_datos_btn_clear"
+        app:layout_constraintTop_toBottomOf="@+id/activity_matriz_datos_tl_matriz_datos" />
+
+    <FrameLayout
+        android:id="@+id/activity_matriz_datos_fl_ads_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/activity_matriz_datos_btn_clear" />
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
