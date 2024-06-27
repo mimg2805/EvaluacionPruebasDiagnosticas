@@ -2,6 +2,7 @@
 <resources>
     <string name="app_name">Evaluación de Pruebas Diagnósticas</string>
     <string name="evaluate">Evaluar</string>
+    <string name="more_apps">Más Apps del desarrollador</string>
 
     <string name="add_data">Introduzca los datos</string>
     <string name="condition_present">Condición\nPresente</string>

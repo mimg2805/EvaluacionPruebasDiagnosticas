@@ -2,6 +2,7 @@ package com.marcosmiranda.evaluacionpruebasdiagnosticas
 
 import android.app.Activity
 import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
@@ -39,6 +40,11 @@ class MainMenu : Activity() {
             timer.cancel()
             tvAppName.text = appNameStr
             startActivity(Intent(this, MatrizDatos::class.java))
+        }
+
+        val btnMasApps = findViewById<Button>(R.id.activity_main_menu_btn_more_apps)
+        btnMasApps.setOnClickListener {
+            this.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/developer?id=Marcos+I.+Miranda+G.")))
         }
     }
 }
